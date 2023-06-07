@@ -3,6 +3,12 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  $font-family-base: 'MyFont';
+  $font-family-ios-base: 'MyFont';
+  $font-family-md-base: 'MyFont';
+  $font-family-wp-base: 'MyFont';
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

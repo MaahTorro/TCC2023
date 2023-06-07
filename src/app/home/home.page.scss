@@ -1,3 +1,7 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 #sectionlogin {
   display: flex;
   justify-content: center;
@@ -11,12 +15,15 @@ input {
   color: black;
   border: none;
   margin-top: 15px;
-  height: 45px;
-  width: 300px;
+  height: 40px;
+  width: 260px;
   box-shadow: 2px 2px 4px #00000060;
   font-size: 16px;
   letter-spacing: 1px;
+}
 
+input:focus {
+  outline: none;
 }
 
 #text-login {
@@ -69,3 +76,9 @@ input {
   align-items: center;
 }
 
+::placeholder {
+  color: #3568E9;
+  font-size: 14px;
+  letter-spacing: -.5px;
+  padding: 8px;
+}

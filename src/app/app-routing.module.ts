@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
   },
+  {
+    path: 'cadastrodois',
+    loadChildren: () => import('./cadastrodois/cadastrodois.module').then( m => m.CadastrodoisPageModule)
+  },
 ];
 
 @NgModule({
